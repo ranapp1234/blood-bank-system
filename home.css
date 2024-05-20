@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: inline;
+    float: left;
+    width: 18rem;
+    color: white;
+    margin-top: -2rem;  
+}
+#Logo > img{
+    height: 2rem;
+    width: 2rem;
+    color: whitesmoke;
+}
+#Logo > a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    height: 7vh;
+    background-color:rgba(4, 130, 4, 0.9);
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+nav ul li {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    color: white;
+    font-family: Monsterrat Medium;
+    padding: 0.78rem;
+    margin-bottom: -2rem;
+    
+}
+
+/* nav hover effect */
+nav ul li:hover {
+    transform: scale(0.80);
+}
+
+nav ul li:hover {
+   
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    background-color: #e54f68;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, .8), 0px 0px 30px rgba(255, 255, 255, .8) ;
+    font-size: 1.3rem;
+    margin-top: -0.2rem;
+
+}
+
+ #carouselExampleRide{
+    width: 70rem;
+    height:  46.3rem;
+    margin-left: 12rem;
+   
+} 
+.carousel-caption h5 {
+    display: inline;
+    font-family: Monsterrat Medium;
+    font-size: 2.2rem;
+    margin-left: 0.4rem;
+    background-color:rgba(254, 222, 238, 0.699);
+    border-radius: .25rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    color:black;
+   
+}
+.carousel-caption button {
+    background-color: rgba(233, 71, 155, 0.804) !important;
+    width: 11rem;
+    height: 2.3rem;
+    color: white;
+    text-transform: uppercase;
+ 
+}
+.carousel-caption button:hover{
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, .8), 0px 0px 30px rgba(255, 255, 255, .8) ;
+    transition: all .3s ease-in-out;
+}
+
+
+.carousel-caption> button >a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.carousel-caption >p {
+    background-color:rgba(254, 222, 238, 0.699);
+    border-radius: .25rem;
+    padding: 1rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    color:black;
+}
+
+/* image clouser */
+.carousel-caption {
+   margin-bottom: 16rem;
+    margin-left: 9rem;
+    height: 12rem;
+    width: 35rem;
+   
+}
+
+.d-block {
+    display: block !important;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 2nd content */
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 1rem;
+    
+}
+.item{
+    height: 36rem;
+    width: 40rem;
+    float: left;
+    padding-top: 2rem;
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: -0.7rem;
+    color: rgb(9, 9, 9);
+   
+}
+.item img{
+    height:35rem ;
+    width: 30rem;
+    margin-top:  -1.5rem;
+
+}
+.right{
+    float: right;
+    padding-left:  4rem;
+  
+}
+
+.up{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#0d0c0c;
+    line-height: 2.5rem;
+    height:  8rem;
+    width: 76rem;
+    padding-top: 4rem;
+    margin-left:  3rem;
+   
+}
+/* numbering right slide  */
+  
+div.right {
+    counter-reset: list-number;
+  }
+  div.right div:before {
+    counter-increment: list-number;
+    content: counter(list-number);
+    margin-right: 10px;
+    margin-bottom:10px;
+    width:35px;
+    height:35px;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    font-size:16px;
+    background-color:#d7385e;
+    border-radius:50%;
+    color:white;
+  }
+  div.right{
+    counter-reset: list-number 0;
+  }
+
+
+  .right > div{
+    margin-top: 3rem;
+  }
+
+ .right > div > p{
+    margin-left: 3rem;
+    margin-top:  -5.5rem;
+    padding-top: 3rem;
+ }
+ 
+ .right > .right1-para{
+    margin-left: -2rem;
+    margin-top: 0.7rem;
+ }
+
+ #bookme{
+    height: 2.4rem;
+    width:  12rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 1rem;
+    background-color:#d7385e;
+    color: white;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+ }
+ #bookme > a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+ }
+
+footer {
+    background-color: #117e29;
+    height: 3em;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}

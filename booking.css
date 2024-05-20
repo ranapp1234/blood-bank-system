@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+body {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.formlook {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+    box-shadow: 2px 1px 21px -9px rgba(0, 0, 0, 0.38);
+}
+* {
+    box-sizing: border-box
+}
+
+
+.menu-bar {
+    margin-top: 2rem;
+    align-items: start;
+}
+
+.cont{
+    text-align: center;
+}
+
+
+.preventive-img {
+    height: 50vh;
+    width: 40vw;
+}
+
+.preventive-img>img {
+    height: 40vh;
+    width: 20vw;
+}
+
+
+.selectprop{
+    width: 90%;
+    display: flex;
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    background: #f7f7f7;
+}
+select {
+    width: 18%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7; background-color: hsl(0, 10%, 86%);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+input[type=name],
+input[type=email],
+input[type=phone],
+input[type=datetime-local],
+input[type=password] {
+    width: 70%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f7f7f7;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+input[type=name]:focus,
+input[type=phone]:focus,
+select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Change styles for signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+/* button */
+button:hover {
+    opacity: 1;
+}
+.menu-button{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+   }

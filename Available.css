@@ -1,0 +1,98 @@
+nav ul li:hover {
+    transform: scale(0.9);
+ 
+}
+#Logo > img{
+    margin-top: -0.3rem;
+}
+ 
+.menu-item > .menu3{
+    text-decoration: none;
+    color: black;
+}
+
+#content-prevent {
+    display: flex;
+    height: 40rem;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae7e7;
+}
+
+.left-preventive {
+    float: left;
+    position: relative;
+
+    width: 42rem;
+    height: 33rem;
+    background-color: white;
+}
+
+.preventive-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.preventive-img>img {
+    height: 28rem;
+    width: 36rem;
+}
+
+.right-preventive {
+    float: right;
+    width: 36rem;
+    height: 33rem;
+    background-color: white;
+
+}
+
+/* right bar  style */
+.menu-bar {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.menu-1stpara {
+    margin-top: 1.8rem;
+    height: 1rem;
+    font-size: large;
+}
+
+.menu-price>p {
+    margin-top: 3rem;
+}
+
+.menu-Discount {
+    text-align: start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(188, 131, 80);
+}
+
+.menu-paragraph>p {
+    margin-top: .7rem;
+    line-height: 1.9
+}
+ .offer-class{
+    color: rgb(188, 131, 80);
+}
+.offer-class1st{
+    text-decoration-line: line-through;
+}
+.menu-button {
+    color: white;
+    background-color: #e54f68;
+    height: 2.3rem;
+    border-radius: .3rem;
+    width: 11rem;
+    margin-top: 0.4rem;
+}
+
+.menu-button:hover {
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 10px rgba(181, 60, 225, 0.945), 0px 0px 30px rgba(231, 254, 137, 0.8) ;
+    scale:  1.05;
+    transition: all .2s ease-in-out;
+}
